@@ -43,7 +43,7 @@ namespace DSD.WFC.UserOperation
             UsuarioBE usuario = usuarioDao.Obtener(dni);
             if (usuario == null)
             {
-                throw new WebFaultException<string>("Alumno no existe", HttpStatusCode.InternalServerError);
+                throw new WebFaultException<string>("Usuario no registrado", HttpStatusCode.InternalServerError);
             }
             else
             {
