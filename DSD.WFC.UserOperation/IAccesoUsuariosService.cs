@@ -15,5 +15,6 @@ namespace DSD.WFC.UserOperation
         [OperationContract]
         [WebInvoke(Method = "POST", UriTemplate = "usuarios/login", ResponseFormat = WebMessageFormat.Json)]
         UsuarioBE LoginUsuario(UsuarioBE usuario);
+
     }
 }
