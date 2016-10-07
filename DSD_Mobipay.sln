@@ -25,7 +25,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSD.ServiceAgents", "Servic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{8A2DB79D-9E41-4238-BF5E-F6340A4D62ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSD.WFC.UserOperation", "DSD.WFC.UserOperation\DSD.WFC.UserOperation.csproj", "{B4E28F39-38D8-48FD-87A6-45540E363DCF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSD.WFCOperation", "DSD.WFC.UserOperation\DSD.WFCOperation.csproj", "{B4E28F39-38D8-48FD-87A6-45540E363DCF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsuariosTest", "UsuariosTest\UsuariosTest.csproj", "{DC69CB94-DDF6-4663-9C87-E36A46B710FB}"
 EndProject

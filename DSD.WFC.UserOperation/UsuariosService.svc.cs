@@ -55,7 +55,7 @@ namespace DSD.WFC.UserOperation
         {
             if (usuarioDao.Obtener(usuarioAModificar.Dni) == null)
             {
-                throw new WebFaultException<string>("Alumno no existe", HttpStatusCode.InternalServerError);
+                throw new WebFaultException<string>("Usuario no existe", HttpStatusCode.InternalServerError);
             }
             else
             {
@@ -67,7 +67,7 @@ namespace DSD.WFC.UserOperation
         {
             if (usuarioDao.Obtener(dni) == null)
             {
-                throw new WebFaultException<string>("Alumno no existe", HttpStatusCode.InternalServerError);
+                throw new WebFaultException<string>("Usuario no existe", HttpStatusCode.InternalServerError);
             }
             else
             {

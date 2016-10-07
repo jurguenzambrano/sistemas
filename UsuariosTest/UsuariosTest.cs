@@ -92,7 +92,7 @@ namespace UsuariosTest
                 string error = reader.ReadToEnd();
                 js = new JavaScriptSerializer();
                 string mensaje = js.Deserialize<string>(error);
-                Assert.AreEqual("Correo electrónico ya registrado", mensaje);
+                Assert.AreEqual("Número de DNI ya registrado", mensaje);
             }
         }
 
@@ -111,7 +111,7 @@ namespace UsuariosTest
             usuario = "{\"Mail\":\"jurguenzambrano@gmail.com\",\"Clave\":\"perico\"}";
             data = Encoding.UTF8.GetBytes(usuario);
 
-            req = (HttpWebRequest)WebRequest.Create("http://sistemas.apphb.com/AccesoUsuariosService.svc/usuarios/login");
+            req = (HttpWebRequest)WebRequest.Create("http://sistemas.apphb.com/AccesoUsuariosService.svc/accesos");
             req.Method = "POST";
             req.ContentLength = data.Length;
             req.ContentType = "application/json";
@@ -154,7 +154,7 @@ namespace UsuariosTest
             usuario = "{\"Mail\":\"jurguenzambrano@gmail.com\",\"Clave\":\"pericod\"}";
             data = Encoding.UTF8.GetBytes(usuario);
 
-            req = (HttpWebRequest)WebRequest.Create("http://sistemas.apphb.com/AccesoUsuariosService.svc/usuarios/login");
+            req = (HttpWebRequest)WebRequest.Create("http://sistemas.apphb.com/AccesoUsuariosService.svc/accesos");
             req.Method = "POST";
             req.ContentLength = data.Length;
             req.ContentType = "application/json";
@@ -178,7 +178,7 @@ namespace UsuariosTest
                 string error = reader.ReadToEnd();
                 js = new JavaScriptSerializer();
                 string mensaje = js.Deserialize<string>(error);
-                Assert.AreEqual("Clave incorrecta", mensaje);
+                Assert.AreEqual("Usuario no confirmado", mensaje);
             }
         }
 

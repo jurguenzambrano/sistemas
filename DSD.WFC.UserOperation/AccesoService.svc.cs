@@ -11,7 +11,7 @@ using System.Text;
 
 namespace DSD.WFC.UserOperation
 {
-    public class AccesoUsuariosService : IAccesoUsuariosService
+    public class AccesoUsuariosService : IAccesoService
     {
         private UsuariosDA usuarioDao = new UsuariosDA();
         private UsuarioBE usuario = new UsuarioBE();

@@ -10,10 +10,10 @@ using System.Text;
 namespace DSD.WFC.UserOperation
 {
     [ServiceContract]
-    public interface IAccesoUsuariosService
+    public interface IAccesoService
     {
         [OperationContract]
-        [WebInvoke(Method = "POST", UriTemplate = "usuarios/login", ResponseFormat = WebMessageFormat.Json)]
+        [WebInvoke(Method = "POST", UriTemplate = "accesos", ResponseFormat = WebMessageFormat.Json)]
         UsuarioBE LoginUsuario(UsuarioBE usuario);
 
     }
