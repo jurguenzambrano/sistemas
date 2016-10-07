@@ -6,9 +6,8 @@ using System.ServiceModel;
 using System.Text;
 using DSD.Adapters;
 using DSD.BusinessEntity;
-using DSD.BusinessLogic;
 
-namespace DSD.WCF.BankOperation
+namespace DSD.WCF.Services
 {    
     [ServiceContract]
     public interface IBankOperation

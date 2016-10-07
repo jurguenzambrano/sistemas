@@ -111,7 +111,7 @@ namespace UsuariosTest
             usuario = "{\"Mail\":\"jurguenzambrano@gmail.com\",\"Clave\":\"perico\"}";
             data = Encoding.UTF8.GetBytes(usuario);
 
-            req = (HttpWebRequest)WebRequest.Create("http://sistemas.apphb.com/AccesoUsuariosService.svc/accesos");
+            req = (HttpWebRequest)WebRequest.Create("http://sistemas.apphb.com/AccesosService.svc/accesos");
             req.Method = "POST";
             req.ContentLength = data.Length;
             req.ContentType = "application/json";
@@ -154,7 +154,7 @@ namespace UsuariosTest
             usuario = "{\"Mail\":\"jurguenzambrano@gmail.com\",\"Clave\":\"pericod\"}";
             data = Encoding.UTF8.GetBytes(usuario);
 
-            req = (HttpWebRequest)WebRequest.Create("http://sistemas.apphb.com/AccesoUsuariosService.svc/accesos");
+            req = (HttpWebRequest)WebRequest.Create("http://sistemas.apphb.com/AccesosService.svc/accesos");
             req.Method = "POST";
             req.ContentLength = data.Length;
             req.ContentType = "application/json";
@@ -197,7 +197,7 @@ namespace UsuariosTest
             usuario = "{\"Mail\":\"jurguenzambranosss@gmail.com\",\"Clave\":\"perico\"}";
             data = Encoding.UTF8.GetBytes(usuario);
 
-            req = (HttpWebRequest)WebRequest.Create("http://sistemas.apphb.com/AccesoUsuariosService.svc/usuarios/login");
+            req = (HttpWebRequest)WebRequest.Create("http://sistemas.apphb.com/AccesosService.svc/accesos");
             req.Method = "POST";
             req.ContentLength = data.Length;
             req.ContentType = "application/json";

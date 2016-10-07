@@ -1,17 +1,11 @@
 ﻿using DSD.BusinessEntity;
 using DSD.DataAccess;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
-using System.Runtime.Serialization;
-using System.ServiceModel;
 using System.ServiceModel.Web;
-using System.Text;
 
-namespace DSD.WFC.UserOperation
+namespace DSD.WFC.Services
 {
-    public class AccesoUsuariosService : IAccesoService
+    public class AccesosService : IAccesosService
     {
         private UsuariosDA usuarioDao = new UsuariosDA();
         private UsuarioBE usuario = new UsuarioBE();

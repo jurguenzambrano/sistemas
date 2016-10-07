@@ -7,7 +7,7 @@ using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
 
-namespace DSD.WFC.UserOperation
+namespace DSD.WFC.Services
 {
     [ServiceContract]
     public interface IUsuariosService

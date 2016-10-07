@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada a un ensamblado.
-[assembly: AssemblyTitle("DSD.WFC.UserOperation")]
+[assembly: AssemblyTitle("DSD.WCF.Services")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DSD.WFC.UserOperation")]
+[assembly: AssemblyProduct("DSD.WCF.Services")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("b4e28f39-38d8-48fd-87a6-45540e363dcf")]
+[assembly: Guid("40b91d1e-19ed-45c2-bf70-652b1610544f")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //

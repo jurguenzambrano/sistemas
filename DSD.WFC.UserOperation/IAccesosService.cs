@@ -10,7 +10,7 @@ using System.Text;
 namespace DSD.WFC.UserOperation
 {
     [ServiceContract]
-    public interface IAccesoService
+    public interface IAccesosService
     {
         [OperationContract]
         [WebInvoke(Method = "POST", UriTemplate = "accesos", ResponseFormat = WebMessageFormat.Json)]
