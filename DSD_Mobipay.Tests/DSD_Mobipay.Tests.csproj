@@ -39,6 +39,8 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Web.Extensions" />
@@ -48,25 +50,55 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Service References\BankOperationWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Properties\DataSources\DSD.BusinessEntity.MovimientosBE.datasource" />
+    <None Include="Properties\DataSources\DSD.BusinessEntity.UsuariosBE.datasource" />
+    <None Include="Service References\BankOperationWS\BankOperation.wsdl" />
+    <None Include="Service References\BankOperationWS\BankOperation.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BankOperationWS\BankOperation1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BankOperationWS\BankOperation2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DSD.BusinessEntity\DSD.BusinessEntity.csproj">
       <Project>{ce547fbc-3837-4638-bf0d-d2a96eb57e0b}</Project>
       <Name>DSD.BusinessEntity</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DSD.WCF.BankOperation\DSD.WCF.BankOperation.csproj">
-      <Project>{ad6119df-432d-4081-8a0e-e1a4108a2722}</Project>
-      <Name>DSD.WCF.BankOperation</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DSD_Mobipay\DSD_Mobipay.csproj">
-      <Project>{75B5C951-7331-4AF9-8BA0-33CD21C05A0B}</Project>
-      <Name>DSD_Mobipay</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <WCFMetadataStorage Include="Service References\BankOperationWS\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BankOperationWS\BankOperation.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BankOperationWS\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BankOperationWS\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BankOperationWS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

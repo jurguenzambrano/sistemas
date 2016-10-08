@@ -103,7 +103,7 @@
       <Name>DSD.Adapters</Name>
     </ProjectReference>
     <ProjectReference Include="..\DSD.BusinessEntity\DSD.BusinessEntity.csproj">
-      <Project>{CE547FBC-3837-4638-BF0D-D2A96EB57E0B}</Project>
+      <Project>{ce547fbc-3837-4638-bf0d-d2a96eb57e0b}</Project>
       <Name>DSD.BusinessEntity</Name>
     </ProjectReference>
     <ProjectReference Include="..\DSD.BusinessLogic\DSD.BusinessLogic.csproj">
@@ -111,7 +111,7 @@
       <Name>DSD.BusinessLogic</Name>
     </ProjectReference>
     <ProjectReference Include="..\DSD.DataAccess\DSD.DataAccess.csproj">
-      <Project>{17139301-4459-47BE-B7BB-8366F358C1F7}</Project>
+      <Project>{17139301-4459-47be-b7bb-8366f358c1f7}</Project>
       <Name>DSD.DataAccess</Name>
     </ProjectReference>
   </ItemGroup>

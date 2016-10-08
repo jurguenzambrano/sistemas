@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="13213aaa-21d2-487b-bc00-8a4bfd0d78f5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:28906/BankOperation.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BankOperation.wsdl" MetadataType="Wsdl" ID="1a43cce4-b56a-4636-803d-9aa2cc0b6f13" SourceId="1" SourceUrl="http://localhost:28906/BankOperation.svc?wsdl" />
+    <MetadataFile FileName="BankOperation.disco" MetadataType="Disco" ID="1b703c99-83ce-4cef-ba01-5833324e1cf1" SourceId="1" SourceUrl="http://localhost:28906/BankOperation.svc?disco" />
+    <MetadataFile FileName="BankOperation.xsd" MetadataType="Schema" ID="bc4b3979-d3fd-42aa-89f4-26c0b92757c3" SourceId="1" SourceUrl="http://localhost:28906/BankOperation.svc?xsd=xsd0" />
+    <MetadataFile FileName="BankOperation1.xsd" MetadataType="Schema" ID="5d5efdfa-047c-48a4-b61e-34e8bde8ceb0" SourceId="1" SourceUrl="http://localhost:28906/BankOperation.svc?xsd=xsd1" />
+    <MetadataFile FileName="BankOperation2.xsd" MetadataType="Schema" ID="f499accf-0a3e-4069-9da3-fafec83c042b" SourceId="1" SourceUrl="http://localhost:28906/BankOperation.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

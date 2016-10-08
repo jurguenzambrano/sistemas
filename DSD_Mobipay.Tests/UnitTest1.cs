@@ -1,6 +1,5 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using DSD.WCF.BankOperation;
 using DSD.BusinessEntity;
 
 namespace DSD_Mobipay.Tests
@@ -11,7 +10,7 @@ namespace DSD_Mobipay.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            BankOperation oBankOperation = new BankOperation();
+            BankOperationWS.BankOperationClient oBankOperation = new BankOperationWS.BankOperationClient();
             UsuariosBE oUsuariosBE = new UsuariosBE();
             UsuariosBE oUsuariosBE_Resultado = new UsuariosBE();
             Guid gBanco = Guid.Empty;
