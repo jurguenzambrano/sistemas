@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="13213aaa-21d2-487b-bc00-8a4bfd0d78f5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e613ed82-37d6-4261-a79b-a0c6d076c6d8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,14 +19,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:28906/BankOperation.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://sistemas.apphb.com/BankOperation.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="BankOperation.wsdl" MetadataType="Wsdl" ID="1a43cce4-b56a-4636-803d-9aa2cc0b6f13" SourceId="1" SourceUrl="http://localhost:28906/BankOperation.svc?wsdl" />
-    <MetadataFile FileName="BankOperation.disco" MetadataType="Disco" ID="1b703c99-83ce-4cef-ba01-5833324e1cf1" SourceId="1" SourceUrl="http://localhost:28906/BankOperation.svc?disco" />
-    <MetadataFile FileName="BankOperation.xsd" MetadataType="Schema" ID="bc4b3979-d3fd-42aa-89f4-26c0b92757c3" SourceId="1" SourceUrl="http://localhost:28906/BankOperation.svc?xsd=xsd0" />
-    <MetadataFile FileName="BankOperation1.xsd" MetadataType="Schema" ID="5d5efdfa-047c-48a4-b61e-34e8bde8ceb0" SourceId="1" SourceUrl="http://localhost:28906/BankOperation.svc?xsd=xsd1" />
-    <MetadataFile FileName="BankOperation2.xsd" MetadataType="Schema" ID="f499accf-0a3e-4069-9da3-fafec83c042b" SourceId="1" SourceUrl="http://localhost:28906/BankOperation.svc?xsd=xsd2" />
+    <MetadataFile FileName="BankOperation.xsd" MetadataType="Schema" ID="5ee881a6-c063-4b21-bb1c-b2aeee221428" SourceId="1" SourceUrl="http://sistemas.apphb.com/BankOperation.svc?xsd=xsd0" />
+    <MetadataFile FileName="BankOperation1.xsd" MetadataType="Schema" ID="285916b2-3fa7-4039-92fb-703f25325e06" SourceId="1" SourceUrl="http://sistemas.apphb.com/BankOperation.svc?xsd=xsd1" />
+    <MetadataFile FileName="BankOperation2.xsd" MetadataType="Schema" ID="e43e09d7-ba5b-446f-a8c7-bac09324b31e" SourceId="1" SourceUrl="http://sistemas.apphb.com/BankOperation.svc?xsd=xsd2" />
+    <MetadataFile FileName="BankOperation.wsdl" MetadataType="Wsdl" ID="e2553b7e-0233-44c6-9856-bb793f15910a" SourceId="1" SourceUrl="http://sistemas.apphb.com/BankOperation.svc?wsdl" />
+    <MetadataFile FileName="BankOperation.disco" MetadataType="Disco" ID="6b7d691c-90b2-4193-8b86-bccfea0e01c3" SourceId="1" SourceUrl="http://sistemas.apphb.com/BankOperation.svc?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

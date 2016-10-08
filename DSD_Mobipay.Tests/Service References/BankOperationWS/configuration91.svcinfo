@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="Z0a7cixtD1ilI8hF6qI4QgWTiW0=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="aANj6s8BCVshnbak2x5vSSK2zfc=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_IBankOperation">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_IBankOperation" contract="BankOperationWS.IBankOperation" bindingType="basicHttpBinding" address="http://localhost:28906/BankOperation.svc" bindingConfiguration="BasicHttpBinding_IBankOperation">
+    <endpoint name="BasicHttpBinding_IBankOperation" contract="BankOperationWS.IBankOperation" bindingType="basicHttpBinding" address="http://sistemas.apphb.com/BankOperation.svc" bindingConfiguration="BasicHttpBinding_IBankOperation">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://localhost:28906/BankOperation.svc</serializedValue>
+          <serializedValue>http://sistemas.apphb.com/BankOperation.svc</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
